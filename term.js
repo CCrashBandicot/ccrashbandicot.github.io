@@ -112,7 +112,7 @@ function command(){
 	}
 
         else if(x == "uname"){
-		y.innerHTML += "Linux<br/>";
+		y.innerHTML += "Linux <br/>";
 	}
         else if(x == "help"){
                 y.innerHTML += "available commands: ls, uname, cat, pwd, cd, whoami, id, exit<br/>";
