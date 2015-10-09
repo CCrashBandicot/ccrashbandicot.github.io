@@ -11,7 +11,7 @@ var sh = document.getElementById("sh");
 sh.innerHTML = ps1();
 
 function ps1(){
- var ps = "Crash<font color='yellow'>@</font><font color='white'>DosPerl</font> % ";
+ var ps = "root<font color='yellow'>@</font><font color='white'>localhost</font> #";
  return ps;
 }
 
