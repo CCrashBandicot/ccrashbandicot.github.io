@@ -121,7 +121,11 @@ function command(){
         else if(x == "pwd"){
                 y.innerHTML += pwd+"<br/>";
         }
-
+        
+        else if(x == "cat /etc/passwd") {
+        	y.innerHTML += "root:!:0:0::/:/usr/bin/ksh <br/>daemon:!:1:1::/etc: <br/> bin:!:2:2::/bin: <br/>sys:!:3:3::/usr/sys: <br/>adm:!:4:4::/var/adm: <br/>uucp:!:5:5::/usr/lib/uucp:  <br/>crash:!:100:100::/home/crash: <br/>nobody:!:4294967294:4294967294::/: <br/>";
+        
+        }
         else if(x == "id"){
                 y.innerHTML += "uid=0(root) gid=0(root) groups=48(apache)<br/>";
         }
