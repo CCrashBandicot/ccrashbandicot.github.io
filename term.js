@@ -11,7 +11,7 @@ var sh = document.getElementById("sh");
 sh.innerHTML = ps1();
 
 function ps1(){
- var ps = "root<font color='green'>@</font><font color='white'>localhost</font> #";
+ var ps = "root<font color='green'>@</font><font color='white'>localhost</font> #> ";
  return ps;
 }
 
@@ -122,7 +122,7 @@ function command(){
                 y.innerHTML += pwd+"<br/>";
         }
         
-        else if(x == "/etc/passwd") {
+        else if(x == "type /etc/passwd") {
         	y.innerHTML += "root:!:0:0::/:/usr/bin/ksh <br/>daemon:!:1:1::/etc: <br/> bin:!:2:2::/bin: <br/>sys:!:3:3::/usr/sys: <br/>adm:!:4:4::/var/adm: <br/>uucp:!:5:5::/usr/lib/uucp:  <br/>crash:!:100:100::/home/crash: <br/>nobody:!:4294967294:4294967294::/: <br/>";
         
         }
