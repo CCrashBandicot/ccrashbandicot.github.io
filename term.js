@@ -11,7 +11,7 @@ var sh = document.getElementById("sh");
 sh.innerHTML = ps1();
 
 function ps1(){
- var ps = "root<font color='yellow'>@</font><font color='white'>localhost</font> #";
+ var ps = "root<font color='green'>@</font><font color='white'>localhost</font> #";
  return ps;
 }
 
@@ -112,7 +112,7 @@ function command(){
 	}
 
         else if(x == "uname"){
-		y.innerHTML += "Linux";
+		y.innerHTML += "Linux<br/>";
 	}
         else if(x == "help"){
                 y.innerHTML += "available commands: ls, uname, cat, pwd, cd, whoami, id, exit<br/>";
