@@ -6,7 +6,7 @@ var file_list = [
  ["/home/crash", 0,"README", "2015 Jun 22 17:00","Website Hosted by Github<br>",""],
  ["/home/crash", 0,"links.txt", "2015 Jun 22 17:00","https://github.com/CCrashBandicot<br>twitter.com/DosPerl<br>pastebin.com/u/CrashBandicot<br>",""],
 
- ["/home/crash/txt", 0, "read_file_tutorial.txt", "2015 Ter Jun 23 15:40", "", "https://www.github.com/CCrashBandicot"]
+ ["/home/crash/txt", 0, "git.txt", "2015 Ter Jun 23 15:40", "", "https://www.github.com/CCrashBandicot"]
 
 ];
 
